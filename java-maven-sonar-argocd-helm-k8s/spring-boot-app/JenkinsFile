@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         dockerImage = ''
-        registry = "sandeepsunkara0007763/sandeep1"
+        registry = "sandeepsunkara0007763/abhishek"
         registryCredential = 'docker-cred'
     }
     stages {
